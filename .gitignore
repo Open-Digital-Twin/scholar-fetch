@@ -1,0 +1,10 @@
+**/__pycache__
+*.log
+temp/**/*
+
+## Allow logs inside logs folder
+!logs/*.log
+!perma-logs/**/*.log
+
+token.pickle
+credentials.json
